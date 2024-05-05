@@ -6,11 +6,11 @@ import './navbar.css'
 
 const Menu = () => (
    <>
-      <p><a href="#home"> Home</a></p>
-      <p><a href="#transformer"> Transformer</a></p>
-      <p><a href="#possibility"> Open AI</a></p>
-      <p><a href="#features"> Case Study</a></p>
-      <p><a href="#blog"> Library</a></p>
+      <p><a href="/#home"> Home</a></p>
+      <p><a href="/#brand"> Platforms</a></p>
+      <p><a href="/#transformer"> Strategies </a></p>
+      <p><a href="/#features"> AI for Marketing</a></p>
+      <p><a href="/#blog"> Our Approach</a></p>
    </>
 )
 
@@ -21,7 +21,9 @@ const Navbar = () => {
       <div className="transformer__navbar">
          <div className="transformer__navbar-links">
             <div className="transformer__navbar-links_logo">
-               <img src={logo} alt="tranformer logo"></img>
+               <a href="/">
+                  <img src={logo} alt="tranformer logo"></img>
+               </a>
             </div>
             <div className="transformer__navbar-links_container">
                <Menu />

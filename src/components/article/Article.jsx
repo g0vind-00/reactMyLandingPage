@@ -1,7 +1,7 @@
 import React from 'react';
 import './article.css'
 
-const Article = ({imgUrl,date,title}) => {
+const Article = ({imgUrl,description,title}) => {
    return (
       <div className="transformer__blog-container_article">
          <div className="transformer__blog-container_article-image">
@@ -10,10 +10,10 @@ const Article = ({imgUrl,date,title}) => {
 
          <div className="transformer__blog-container_article-content">
             <div>
-               <p>{date}</p>
                <h1>{title}</h1>
+               <h2 color='#FFFFFF'>{description}</h2>
             </div>
-            <p>Read Full Article</p>
+            {/* <p>Read Full Article</p> */}
          </div>
       </div>
    )

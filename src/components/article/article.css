@@ -42,7 +42,18 @@
    font-size: 25.11px;
    line-height: 30px;
    color: #FFFFFF;
-   margin-bottom: 5rem;
+   margin-bottom: 2rem;
+   cursor: pointer;
+   font-family: var(--font-family);
+}
+
+.transformer__blog-container_article-content h2{
+  
+   font-weight: 150;
+   font-size: 18px;
+   line-height: 30px;
+   color: #FFFFFF;
+   margin-bottom: 1rem;
    cursor: pointer;
    font-family: var(--font-family);
 }

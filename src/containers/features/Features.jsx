@@ -3,24 +3,25 @@ import { Feature } from '../../components';
 import './features.css';
 
 const featuresData =[
+   
    {
-      title:'Improving end distrusts instantly ',
-      text:'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+      title:'Leveraging AI for ADs',
+      text:'We use AI model on top of ADs to analyze data, identify patterns, and make predictions that garauntees success.'
+   },
+   
+   {
+      title:'Leveraging AI for SEO',
+      text:'Harnessing natural language processing, trend analysis, and user behavior modeling for unparalleled optimization and ranking prowess.'
+   },
+   
+   {
+      title:'Algorithm Hacks',
+      text:'Our team constantly works on finding New Social Media algorithm hacks to grow your account/product organically.'
    },
 
    {
-      title:'Become the tended active',
-      text:'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.'
-   },
-
-   {
-      title:'Message or am nothing',
-      text:'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.'
-   },
-
-   {
-      title:'Really boy law county',
-      text:'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.'
+      title:'Providin end-to-end Marketing Solution',
+      text:'Coming Soon...'
    }
 ]
 
@@ -29,9 +30,9 @@ const Features = () => {
       <div className="transformer__features section__padding" id="features">
          <div className="transformer__features-heading">
             <h1 className="gradient__text">
-            The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
+            Empower Your Brand's Future using AI. <br /> Step into Tomorrow & Make It Happen.
             </h1>
-            <p>Request Early Access to Get Started</p>
+            <p>Contact Us Now to Get Started</p>
          </div>
 
          <div className="transformer__features-container">

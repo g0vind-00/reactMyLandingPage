@@ -1,0 +1,32 @@
+/* TermsConditions.css */
+
+.terms-conditions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #001F3F; /* Dark blue background */
+    color: #FFFFFF; /* White text color */
+  }
+  
+  .terms-conditions h1 {
+    font-size: 28px;
+    color: #FFD700; /* Golden color for headings */
+  }
+  
+  .terms-conditions h2 {
+    font-size: 24px;
+    color: #FF5733; /* Coral color for subheadings */
+  }
+  
+  .terms-conditions p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .terms-conditions ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  /* Add additional styles as needed */
+  

@@ -5,11 +5,13 @@ const Cta = () => {
    return (
       <div className="transformer__cta section__margin">
          <div className="transformer__cta-content">
-            <p>Request Early Access to Get Started</p>
-            <h1>Register today & start exploring the endless possiblities.</h1>
+            <p>Let's Get Started</p>
+            <h2>Take the first step, and contact us to discuss your marketing and business goals. Send us a message, and we will get back to you soon.</h2>
          </div>
          <div className="transformer__cta-btn">
-            <button type="button">Get Started</button>
+            <a href="https://ig.me/m/flopmarketing" target="_blank" rel="noopener noreferrer">
+               <button type="button">DM Us Now!</button>
+            </a>
 
          </div>
       </div>
