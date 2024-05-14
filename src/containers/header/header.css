@@ -112,6 +112,9 @@
   .transformer__header-content {
     margin: 0 0 3rem;
   }
+  .transformer__header-image {
+    margin-top: 0px;
+  }
 }
 
 @media screen and (max-width: 650px) {
